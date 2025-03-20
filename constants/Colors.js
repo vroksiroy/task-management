@@ -1,0 +1,61 @@
+export const Theme = {
+    brand: {
+      black: "#000000",
+      white: "#FFFFFF",
+      flashWhite: "#EBEBEB",
+      grey: "#827F85",
+      line: "rgba(130, 127, 133, 0.4)",
+      coolGrey: "#F4F5FA",
+      green: "#006C67",
+      purple: {
+        100: "#F6F0F9",
+        300: "#7B7B9B",
+        500: "#531CB3",
+        900: "#2F2F4B",
+      },
+      red: "#BE1E2D",
+      lightYellow: "#FCF5D2",
+      goldenStar: "#FFD700",
+      yellow: "#EBDA12",
+      orange: "#F29559",
+      lightGrey: "#F5F5F6",
+      raspberryPink: "#D81B60",
+      coralOrange: "#FF7043",
+      tealGreen: "#009688",
+      limeGreen: "#C0CA33",
+      periwinkleBlue: "#5C6BC0",
+      redSalsa: "#E53935",
+      sunflowerYellow: "#FFCA28",
+      amber: "#FFB300",
+      mediumGreen: "#4CAF50",
+      deepCyan: "#0097A7",
+      paleCornflowerBlue: "#A5B7E1",
+      amethystPurple: "#9C4FBB",
+      rosePink: "#F06292",
+      charcoalBlue: "#2F2F4B",
+      darkGray: "#757575",
+      darkGrey400:'#707070'
+    },
+  };
+  
+  export const Colors = {
+    light: {
+      text: Theme.brand.black,
+      background: Theme.brand.white,
+      tint: Theme.brand.grey,
+      activeTint: Theme.brand.black,
+      icon: Theme.brand.black,
+      tabIconDefault: Theme.brand.black,
+      tabIconSelected: Theme.brand.black,
+    },
+    dark: {
+      text: Theme.brand.white,
+      background: Theme.brand.black,
+      tint: Theme.brand.grey,
+      activeTint: Theme.brand.white,
+      icon: Theme.brand.white,
+      tabIconDefault: Theme.brand.white,
+      tabIconSelected: Theme.brand.white,
+    },
+  };
+  
